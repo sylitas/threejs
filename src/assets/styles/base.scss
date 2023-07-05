@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  &:after,
+  &:before {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+/* Variables */
+
+$green-color: #6cff8d;
+$dark-green-color: #6cff8c7a;
